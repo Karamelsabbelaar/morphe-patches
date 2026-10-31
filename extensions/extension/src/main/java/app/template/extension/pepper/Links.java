@@ -9,7 +9,7 @@ import java.util.Locale;
  */
 final class Links {
 
-    private static final String PEPPER_DOMAIN = "pepper.com";
+    private static final String PEPPER_DOMAIN = "pepper.nl";
 
     /**
      * Prefix of the query parameters used to track where a link was shared or opened from.

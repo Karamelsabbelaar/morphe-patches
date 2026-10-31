@@ -13,6 +13,7 @@ import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER
+import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER_LEGACY
 import app.template.patches.shared.gms.gmsCoreSupportResourcePatch
 import app.template.patches.shared.gms.useGmsCore
 import app.template.patches.shared.requireExtensionMethods
@@ -34,8 +35,10 @@ val gmsCoreSupportPatch = bytecodePatch(
     default = true
 ) {
     compatibleWith(COMPATIBILITY_PEPPER)
+    compatibleWith(COMPATIBILITY_PEPPER_LEGACY)
 
     dependsOn(gmsCoreSupportResourcePatch(COMPATIBILITY_PEPPER.packageName!!, ORIGINAL_SIGNATURE))
+    dependsOn(gmsCoreSupportResourcePatch(COMPATIBILITY_PEPPER_LEGACY.packageName!!, ORIGINAL_SIGNATURE))
 
     extendWith("extensions/extension.mpe")
 

@@ -117,7 +117,7 @@ public final class SanitizeDealLinksPatch {
             }
 
             // Pepper redirects to its affiliate redirect, such as
-            // https://path.pepper.com/pepper-pl/redirect?url=<store link>&product=<id>&tag=eugc,
+            // https://path.pepper.nl/pepper/redirect?url=<store link>&product=<id>&tag=eugc,
             // which then adds the affiliate parameters to the store link.
             Uri locationUri = Uri.parse(location);
             String storeLink = Links.isPepperLink(locationUri)

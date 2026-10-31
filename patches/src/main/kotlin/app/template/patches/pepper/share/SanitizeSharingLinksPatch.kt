@@ -5,6 +5,7 @@ import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER
+import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER_LEGACY
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.builder.MutableMethodImplementation
@@ -25,6 +26,7 @@ val sanitizeSharingLinksPatch = bytecodePatch(
     default = true
 ) {
     compatibleWith(COMPATIBILITY_PEPPER)
+    compatibleWith(COMPATIBILITY_PEPPER_LEGACY)
 
     extendWith("extensions/extension.mpe")
 
@@ -37,7 +39,7 @@ val sanitizeSharingLinksPatch = bytecodePatch(
 
                 // The getter only has the register holding "this", so add a method with
                 // registers to spare, that passes the canonical address of the thread on the
-                // website, such as https://www.pepper.com/promocje/ocieplacz-na-twarz-1371572,
+                // website, such as https://www.pepper.nl/promocje/ocieplacz-na-twarz-1371572,
                 // and the redirecting link to the extension.
                 it.classDef.methods.add(
                     ImmutableMethod(

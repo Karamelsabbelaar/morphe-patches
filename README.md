@@ -4,7 +4,7 @@ Patches for use with [Morphe](https://morphe.software).
 
 ## ❓ About
 
-Patches for the Dutch Pepper app, such as removing ads and sanitizing sharing and deal links.
+Patches for the Dutch Pepper app and legacy Pepper package variants, such as removing ads and sanitizing sharing and deal links.
 
 ### How to use these patches
 
