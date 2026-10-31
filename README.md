@@ -4,7 +4,7 @@ Patches for use with [Morphe](https://morphe.software).
 
 ## ❓ About
 
-Patches for the [Wykop.pl](https://wykop.pl) and [Pepper.pl](https://www.pepper.pl) apps, such as removing ads and sanitizing sharing and deal links.
+Patches for the Dutch Pepper app, such as removing ads and sanitizing sharing and deal links.
 
 ### How to use these patches
 
@@ -17,25 +17,7 @@ Push notifications of the patched app also go through MicroG-RE.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.4.0](https://github.com/HagiaHaya/morphe-patches/releases/tag/v1.4.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;8 patches total
-<details open>
-<summary>📦 Wykop.pl&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 5.1.3 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Fix sidebar layout](#fix-sidebar-layout) | Keeps the sidebar of the website shown by the app clear of the status bar and the navigation bar. |  |
-| [GmsCore support](#gmscore-support) | Allows signing in with Google by using MicroG-RE instead of Google Play services. |  |
-| [Hide newsletter prompt](#hide-newsletter-prompt) | Hides the prompt to sign up for the newsletter on the website shown by the app. |  |
-| [Remove ads](#remove-ads) | Hides ads and blocks ad networks on the website shown by the app. |  |
-
-</details>
-
+> **[v1.4.0](https://github.com/HagiaHaya/morphe-patches/releases/tag/v1.4.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Pepper&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>

@@ -37,7 +37,7 @@ val sanitizeSharingLinksPatch = bytecodePatch(
 
                 // The getter only has the register holding "this", so add a method with
                 // registers to spare, that passes the canonical address of the thread on the
-                // website, such as https://www.pepper.pl/promocje/ocieplacz-na-twarz-1371572,
+                // website, such as https://www.pepper.com/promocje/ocieplacz-na-twarz-1371572,
                 // and the redirecting link to the extension.
                 it.classDef.methods.add(
                     ImmutableMethod(

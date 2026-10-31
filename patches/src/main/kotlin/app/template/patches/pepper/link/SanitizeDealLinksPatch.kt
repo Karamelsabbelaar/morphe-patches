@@ -20,7 +20,7 @@ val sanitizeDealLinksPatch = bytecodePatch(
     extendWith("extensions/extension.mpe")
 
     execute {
-        // "Get deal" opens https://www.pepper.pl/visit/thread/1372472 with the user id,
+        // "Get deal" opens https://www.pepper.com/visit/thread/1372472 with the user id,
         // device id and analytics parameters added. It redirects to Pepper's affiliate redirect,
         // which then adds affiliate parameters. The API does not include the link to the store,
         // so the extension looks it up in the first redirect, and opens it instead.

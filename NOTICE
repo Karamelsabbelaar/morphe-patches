@@ -24,8 +24,8 @@ provided that such references:
 Morphe Patches NOTICE
 =====================
 
-The "GmsCore support" patch for Wykop.pl (patches/src/main/kotlin/app/template/patches/wykop/gms)
-is based on the GmsCore support patch of Morphe Patches, and was changed for Wykop.pl.
+The "GmsCore support" patch for Pepper (patches/src/main/kotlin/app/template/patches/pepper/gms)
+is based on the GmsCore support patch of Morphe Patches, and was changed for Pepper.
 The following NOTICE of Morphe Patches applies to it:
 
 Morphe NOTICE

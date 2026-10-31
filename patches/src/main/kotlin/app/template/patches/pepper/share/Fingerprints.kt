@@ -14,7 +14,7 @@ internal val threadApiRepresentationClasses = listOf(
 )
 
 /**
- * Link the app shares for a thread, such as https://www.pepper.pl/share-deal-from-app/1371572.
+ * Link the app shares for a thread, such as https://www.pepper.com/share-deal-from-app/1371572.
  * It redirects to an Adjust tracking link, which then redirects to the thread
  * with utm parameters added.
  */
