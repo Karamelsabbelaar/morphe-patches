@@ -43,3 +43,11 @@ internal object AreAdsEnabledFingerprint : Fingerprint(
         ),
     )
 )
+
+internal object AdSlotsToDataFingerprint : Fingerprint(
+    definingClass = "Lcom/pepper/network/apirepresentation/AdInListApiRepresentationKt;",
+    name = "toData",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC, AccessFlags.FINAL),
+    returnType = "Ljava/util/List;",
+    parameters = listOf("Ljava/lang/Iterable;", "Z"),
+)
