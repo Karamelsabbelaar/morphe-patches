@@ -1,3 +1,10 @@
+## 1.6.0 (2026-11-09)
+
+### 🔧 Improvements
+
+* Rename the patch source to daqot-The-real-one Patches.
+* Point the README to the current patch source and v1.6.0 download.
+
 ## 1.5.0 (2026-11-09)
 
 ### 🐛 Bug Fixes
