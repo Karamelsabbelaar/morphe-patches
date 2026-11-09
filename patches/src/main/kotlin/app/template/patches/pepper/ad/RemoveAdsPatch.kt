@@ -4,7 +4,6 @@ import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER
-import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER_LEGACY
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 
 @Suppress("unused")
@@ -14,7 +13,6 @@ val removeAdsPatch = bytecodePatch(
     default = true
 ) {
     compatibleWith(COMPATIBILITY_PEPPER)
-    compatibleWith(COMPATIBILITY_PEPPER_LEGACY)
 
     execute {
         // Replace !isAdFree with false, so the deal lists and the deal pages

@@ -6,8 +6,8 @@ Patches for the Dutch Pepper Android app, for use with [Morphe](https://morphe.s
 
 [Add daqot-The-real-one/morphe-patches to Morphe](https://morphe.software/add-source?github=daqot-The-real-one/morphe-patches)
 
-This fork targets Pepper package IDs `com.tippingcanoe.peppernl` and
-`com.tippingcanoe.pepper`.
+This fork targets the current Pepper package ID `com.tippingcanoe.peppernl`.
+Patches are not restricted to a specific Pepper version; they still require matching fingerprints.
 
 ## Patches
 
@@ -17,33 +17,10 @@ This fork targets Pepper package IDs `com.tippingcanoe.peppernl` and
 - **Sanitize sharing links** — Shares direct links to deals and discussions instead of tracking redirects.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/daqot-The-real-one/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;8 patches total
+> **[v1.1.0](https://github.com/daqot-The-real-one/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Pepper&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
-
-**🎯 Supported versions:**
-
-| 8.20.00 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [GmsCore support](#gmscore-support) | Allows signing in with Google by using MicroG-RE instead of Google Play services. |  |
-| [Remove ads](#remove-ads) | Removes the ads shown between deals and on the deal pages. |  |
-| [Sanitize deal links](#sanitize-deal-links) | Opens the store page of a deal directly, instead of through redirects that track the click and add affiliate links. |  |
-| [Sanitize sharing links](#sanitize-sharing-links) | Shares the direct link to deals and discussions, instead of a link that redirects through a tracking service. |  |
-
-</details>
-
-<details open>
-<summary>📦 Pepper (legacy)&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 8.20.00 |
-| :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|

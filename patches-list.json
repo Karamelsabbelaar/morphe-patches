@@ -15,32 +15,7 @@
           "apkFileType": "XAPK",
           "appIconColor": "#FF3400",
           "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.pepper",
-          "name": "Pepper (legacy)",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF3400",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+          "targets": []
         }
       ],
       "options": []
@@ -58,32 +33,7 @@
           "apkFileType": "XAPK",
           "appIconColor": "#FF3400",
           "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.pepper",
-          "name": "Pepper (legacy)",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF3400",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+          "targets": []
         }
       ],
       "options": []
@@ -101,32 +51,7 @@
           "apkFileType": "XAPK",
           "appIconColor": "#FF3400",
           "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.pepper",
-          "name": "Pepper (legacy)",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF3400",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+          "targets": []
         }
       ],
       "options": []
@@ -144,32 +69,7 @@
           "apkFileType": "XAPK",
           "appIconColor": "#FF3400",
           "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.pepper",
-          "name": "Pepper (legacy)",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF3400",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.20.00",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+          "targets": []
         }
       ],
       "options": []
