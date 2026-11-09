@@ -1,3 +1,60 @@
+## [1.6.3](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.2...v1.6.3) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/Karamelsabbelaar/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))
+
+## [1.6.2](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.1...v1.6.2) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* I hope everything works ([4f5a596](https://github.com/Karamelsabbelaar/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))
+
+## [1.6.1](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.0...v1.6.1) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* build and validate patch bundle ([4497478](https://github.com/Karamelsabbelaar/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))
+* include DEX in Android patch bundle ([b107f59](https://github.com/Karamelsabbelaar/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))
+
+## 1.6.0 (2026-11-09)
+
+### 🔧 Improvements
+
+* Rename the patch source to daqot-The-real-one Patches.
+* Point the README to the current patch source and v1.6.0 download.
+
+## 1.5.0 (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* Restore build compatibility with Morphe Patcher 2.3.0.
+* Keep Pepper targets version-independent while requiring matching fingerprints.
+
+### 🔧 Improvements
+
+* Simplify the release workflow and document local builds.
+
+## 1.0.0 (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* Fail patching when the extension is outdated ([9e69f38](https://github.com/Karamelsabbelaar/morphe-patches/commit/9e69f38ce9969a3e4163e9cb69b87d3b194e0c97))
+* Sign in with Google on Android 14 and newer in Pepper ([b083298](https://github.com/Karamelsabbelaar/morphe-patches/commit/b0832988d6f5a460a1c21cb402035111b46bb325))
+
+### ✨ New Features
+
+* Add `Fix sidebar layout` patch for Wykop.pl ([7886f8a](https://github.com/Karamelsabbelaar/morphe-patches/commit/7886f8a0112cd4d2f7ef112d0361ff8350cae6a4))
+* Add `GmsCore support` patch for Pepper ([098c487](https://github.com/Karamelsabbelaar/morphe-patches/commit/098c487d7ac5348eed6d0f3e1a8173f1628664a6))
+* Add `GmsCore support` patch for Wykop.pl ([ad24d18](https://github.com/Karamelsabbelaar/morphe-patches/commit/ad24d18d1c098e85d6c321b385c2fb71b31e7949))
+* Add `Hide newsletter prompt` patch for Wykop.pl ([65e0ed9](https://github.com/Karamelsabbelaar/morphe-patches/commit/65e0ed9f3ac4a263d22b970853c5d4144d105240))
+* Add `Remove ads` patch for Pepper ([aa1cb55](https://github.com/Karamelsabbelaar/morphe-patches/commit/aa1cb55c23b01d14f3de898c320e93d5f4b9cd20))
+* Add `Remove ads` patch for Wykop.pl ([4c8fc18](https://github.com/Karamelsabbelaar/morphe-patches/commit/4c8fc1870172924594a95998d88c068c706fe581))
+* Add `Sanitize deal links` patch for Pepper ([d4e97f9](https://github.com/Karamelsabbelaar/morphe-patches/commit/d4e97f924c08aec9fc2165e69d1c83a4e3c5bfb2))
+* Add `Sanitize sharing links` patch for Pepper ([26d164a](https://github.com/Karamelsabbelaar/morphe-patches/commit/26d164a27ffd76ceb676583017925e8c1000a255))
+* publish Dutch Pepper patch bundle ([c17d4e2](https://github.com/Karamelsabbelaar/morphe-patches/commit/c17d4e275960916d1ff4e3a280025bb64cf6b819))
+* publish Dutch Pepper patch bundle ([652cc7b](https://github.com/Karamelsabbelaar/morphe-patches/commit/652cc7b457c19815336ee87bda8e5cb686f64b76))
+
 ## [1.1.0](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.0.0...v1.1.0) (2026-10-31)
 
 ### ✨ New Features
