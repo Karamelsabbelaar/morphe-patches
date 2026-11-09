@@ -1,3 +1,9 @@
+## [1.6.7](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.6...v1.6.7) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* crash? ([81122e9](https://github.com/Karamelsabbelaar/morphe-patches/commit/81122e998fea13e0f06676cdcdef1170f5f6a9a9))
+
 ## [1.6.6](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.5...v1.6.6) (2026-11-09)
 
 ### 🐛 Bug Fixes
