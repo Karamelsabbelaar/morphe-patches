@@ -4,10 +4,10 @@ Patches for the Dutch Pepper Android app, for use with [Morphe](https://morphe.s
 
 ## Add this source to Morphe
 
-[Add Karamelsabbelaar/morphe-patches to Morphe](https://morphe.software/add-source?github=Karamelsabbelaar/morphe-patches)
+[Add daqot-The-real-one/morphe-patches to Morphe](https://morphe.software/add-source?github=daqot-The-real-one/morphe-patches)
 
-If you already added the older daqot-The-real-one source, remove it and add this
-source instead to get the current patch bundle and Pepper compatibility metadata.
+If you already added the Karamelsabbelaar fork, remove it and add this source
+instead to get updates from daqot-The-real-one.
 
 This fork targets the current Pepper package ID `com.tippingcanoe.peppernl`.
 Patches are not restricted to a specific Pepper version; they still require matching fingerprints.
