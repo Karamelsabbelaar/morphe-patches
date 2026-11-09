@@ -56,7 +56,10 @@ internal object AdSlotsToDataFingerprint : Fingerprint(
 internal val hideAdLayoutResourcePatch = resourcePatch {
     execute {
         document("res/layout/item_ad.xml").use { document ->
-            document.documentElement.setAttribute("android:visibility", "gone")
+            document.documentElement.apply {
+                setAttribute("android:visibility", "gone")
+                setAttribute("android:layout_height", "0dp")
+            }
         }
     }
 }
