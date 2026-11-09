@@ -1,0 +1,99 @@
+name: Release v1.5.0
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: read
+  id-token: write
+  attestations: write
+
+jobs:
+  release:
+    name: Publish v1.5.0
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Validate release request
+        run: |
+          test "$GITHUB_REF" = "refs/heads/main" || {
+            echo "::error::Run this workflow from the main branch."
+            exit 1
+          }
+          grep -qx 'version = 1.5.0' gradle.properties || {
+            echo "::error::gradle.properties must declare version 1.5.0."
+            exit 1
+          }
+          if git ls-remote --exit-code --tags origin refs/tags/v1.5.0; then
+            echo "::error::Tag v1.5.0 already exists."
+            exit 1
+          fi
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Build patch bundle and patch list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew :patches:generatePatchesList --no-daemon
+
+      - name: Prepare release metadata
+        run: |
+          jq -e '.version == "1.5.0"' patches-list.json > /dev/null || {
+            echo "::error::The built patch bundle did not report version 1.5.0."
+            exit 1
+          }
+          python3 .github/scripts/generate_patches_readme.py \
+            "$GITHUB_REPOSITORY" main patches-list.json README.md
+          test -f patches/build/libs/patches-1.5.0.mpp || {
+            echo "::error::The versioned patch bundle was not generated."
+            exit 1
+          }
+          awk 'NR > 1 && /^## / { exit } NR > 1 { print }' CHANGELOG.md \
+            | sed '1{/^$/d;}' > /tmp/release-notes.md
+          export RELEASE_NOTES="$(cat /tmp/release-notes.md)"
+          jq \
+            --arg version "1.5.0" \
+            --arg created_at "$(date -u +'%Y-%m-%dT%H:%M:%S')" \
+            --arg download_url "https://github.com/${GITHUB_REPOSITORY}/releases/download/v1.5.0/patches-1.5.0.mpp" \
+            --arg description "$RELEASE_NOTES" \
+            '.version = $version
+             | .created_at = $created_at
+             | .download_url = $download_url
+             | .description = $description' \
+            patches-bundle.json > /tmp/patches-bundle.json
+          mv /tmp/patches-bundle.json patches-bundle.json
+
+      - name: Commit generated release metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md README.md patches-list.json patches-bundle.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: Prepare release v1.5.0 [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          release_target="$(git rev-parse HEAD)"
+          gh release create v1.5.0 patches/build/libs/patches-1.5.0.mpp \
+            --title "v1.5.0" \
+            --notes-file /tmp/release-notes.md \
+            --target "$release_target"
+
+      - name: Attest release bundle
+        uses: actions/attest-build-provenance@v4
+        with:
+          subject-name: "Morphe Patches v1.5.0"
+          subject-path: patches/build/libs/patches-1.5.0.mpp

@@ -1,3 +1,14 @@
+## 1.5.0 (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* Restore build compatibility with Morphe Patcher 2.3.0.
+* Keep Pepper targets version-independent while requiring matching fingerprints.
+
+### 🔧 Improvements
+
+* Simplify the release workflow and document local builds.
+
 ## 1.0.0 (2026-11-09)
 
 ### 🐛 Bug Fixes

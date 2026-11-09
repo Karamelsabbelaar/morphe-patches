@@ -17,7 +17,7 @@ Patches are not restricted to a specific Pepper version; they still require matc
 - **Sanitize sharing links** — Shares direct links to deals and discussions instead of tracking redirects.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/Karamelsabbelaar/morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.5.0](https://github.com/Karamelsabbelaar/morphe-patches/releases/tag/v1.5.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Pepper&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
@@ -49,6 +49,9 @@ Patches are not restricted to a specific Pepper version; they still require matc
 - Run `./gradlew buildAndroid`.
 - The `.mpp` file is generated in `patches/build/libs/`.
 - Apply it with [Morphe-Desktop](https://github.com/MorpheApp/morphe-desktop).
+
+To publish the one-time v1.5.0 release, merge the changes to `main` and run
+**Release v1.5.0** from the GitHub Actions tab on the `main` branch.
 
 See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation) for more information.
 
