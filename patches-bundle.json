@@ -1,6 +1,6 @@
 {
-  "created_at": "2026-11-09T09:18:09",
-  "description": "## 1.5.0 (2026-11-09)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* Restore build compatibility with Morphe Patcher 2.3.0.\r\n* Keep Pepper targets version-independent while requiring matching fingerprints.\r\n\r\n### 🔧 Improvements\r\n\r\n* Simplify the release workflow and document local builds.",
+  "created_at": "2026-11-09T10:12:19",
+  "description": "### 🐛 Bug Fixes\n\n* Restore build compatibility with Morphe Patcher 2.3.0.\n* Keep Pepper targets version-independent while requiring matching fingerprints.\n\n### 🔧 Improvements\n\n* Simplify the release workflow and document local builds.",
   "download_url": "https://github.com/Karamelsabbelaar/morphe-patches/releases/download/v1.5.0/patches-1.5.0.mpp",
   "signature_download_url": "",
   "version": "1.5.0"
