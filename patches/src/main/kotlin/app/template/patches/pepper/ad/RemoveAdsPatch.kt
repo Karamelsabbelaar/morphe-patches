@@ -2,7 +2,6 @@ package app.template.patches.pepper.ad
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
-import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER
@@ -36,15 +35,5 @@ val removeAdsPatch = bytecodePatch(
                 return-object v0
             """
         )
-
-        AdViewContainerConstructorFingerprint.method.let { method ->
-            method.addInstructions(
-                method.instructions.size - 1,
-                """
-                    const/4 p2, 0x8
-                    invoke-virtual { p0, p2 }, Landroid/view/View;->setVisibility(I)V
-                """
-            )
-        }
     }
 }
