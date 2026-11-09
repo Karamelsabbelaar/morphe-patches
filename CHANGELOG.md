@@ -1,3 +1,9 @@
+## [1.6.2](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.1...v1.6.2) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* I hope everything works ([4f5a596](https://github.com/Karamelsabbelaar/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))
+
 ## [1.6.1](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.0...v1.6.1) (2026-11-09)
 
 ### 🐛 Bug Fixes
