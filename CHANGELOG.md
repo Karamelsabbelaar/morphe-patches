@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.0...v1.1.1) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* build and validate patch bundle ([4497478](https://github.com/daqot-The-real-one/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))
+* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/daqot-The-real-one/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))
+* I hope everything works ([4f5a596](https://github.com/daqot-The-real-one/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))
+* include DEX in Android patch bundle ([b107f59](https://github.com/daqot-The-real-one/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))
+
 ## [1.6.3](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.2...v1.6.3) (2026-11-09)
 
 ### 🐛 Bug Fixes
