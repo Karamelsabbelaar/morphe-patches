@@ -1,3 +1,9 @@
+## [1.6.3](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.2...v1.6.3) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/Karamelsabbelaar/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))
+
 ## [1.6.2](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.1...v1.6.2) (2026-11-09)
 
 ### 🐛 Bug Fixes
