@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-09T17:19:59",
-  "description": "## [1.6.4](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.3...v1.6.4) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* more ad blocking? ([f67ef33](https://github.com/Karamelsabbelaar/morphe-patches/commit/f67ef33d96c572d6cf129d9a75b4e2c4be717b38))",
-  "download_url": "https://github.com/Karamelsabbelaar/morphe-patches/releases/download/v1.6.4/patches-1.6.4.mpp",
+  "created_at": "2026-11-09T17:38:21",
+  "description": "## [1.6.5](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.4...v1.6.5) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* refine adblocking ([aa0802a](https://github.com/Karamelsabbelaar/morphe-patches/commit/aa0802ac478abdbb85a012e28883b523a8aea460))",
+  "download_url": "https://github.com/Karamelsabbelaar/morphe-patches/releases/download/v1.6.5/patches-1.6.5.mpp",
   "signature_download_url": "",
-  "version": "1.6.4"
+  "version": "1.6.5"
 }
