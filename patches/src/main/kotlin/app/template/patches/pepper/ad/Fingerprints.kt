@@ -53,6 +53,14 @@ internal object AdSlotsToDataFingerprint : Fingerprint(
     parameters = listOf("Ljava/lang/Iterable;", "Z"),
 )
 
+internal object AdViewContainerConstructorFingerprint : Fingerprint(
+    definingClass = "Lcom/pepper/presentation/ads/AdViewContainer;",
+    name = "<init>",
+    accessFlags = listOf(AccessFlags.PUBLIC),
+    returnType = "V",
+    parameters = listOf("Landroid/content/Context;", "Landroid/util/AttributeSet;"),
+)
+
 internal val hideAdLayoutResourcePatch = resourcePatch {
     execute {
         document("res/layout/item_ad.xml").use { document ->
