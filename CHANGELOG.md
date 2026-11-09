@@ -1,3 +1,9 @@
+## [1.6.8](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.7...v1.6.8) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* adblocking? ([712f7b6](https://github.com/Karamelsabbelaar/morphe-patches/commit/712f7b6136f51a8f8edefe892731d3a080156c23))
+
 ## [1.6.7](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.6...v1.6.7) (2026-11-09)
 
 ### 🐛 Bug Fixes
