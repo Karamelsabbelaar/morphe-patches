@@ -15,6 +15,8 @@ val removeAdsPatch = bytecodePatch(
 ) {
     compatibleWith(COMPATIBILITY_PEPPER)
 
+    dependsOn(hideAdLayoutResourcePatch)
+
     execute {
         // Disable ad loading on deal lists and deal pages.
         AreAdsEnabledFingerprint.let {
