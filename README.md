@@ -35,6 +35,17 @@ Patches are not restricted to a specific Pepper version; they still require matc
 
 ## Build locally
 
+- Morphe's Gradle plugin is hosted on GitHub Packages. To build locally, create a free
+  GitHub personal access token (classic) with the `read:packages` scope, then add these
+  lines to your user-level Gradle properties file (`%USERPROFILE%\.gradle\gradle.properties`
+  on Windows or `~/.gradle/gradle.properties` on macOS/Linux):
+
+  ```properties
+  gpr.user = YOUR_GITHUB_USERNAME
+  gpr.key = YOUR_GITHUB_TOKEN
+  ```
+
+  Keep this token private; do not put it in this repository. GitHub Packages access is free.
 - Run `./gradlew buildAndroid`.
 - The `.mpp` file is generated in `patches/build/libs/`.
 - Apply it with [Morphe-Desktop](https://github.com/MorpheApp/morphe-desktop).
