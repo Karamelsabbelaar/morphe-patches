@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.0...v1.6.1) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* build and validate patch bundle ([4497478](https://github.com/Karamelsabbelaar/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))
+* include DEX in Android patch bundle ([b107f59](https://github.com/Karamelsabbelaar/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))
+
 ## 1.6.0 (2026-11-09)
 
 ### 🔧 Improvements
