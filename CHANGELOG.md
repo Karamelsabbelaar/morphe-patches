@@ -1,3 +1,9 @@
+## [1.6.6](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.5...v1.6.6) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* stupid fingerprint ([55427da](https://github.com/Karamelsabbelaar/morphe-patches/commit/55427da56f4cbe9c35f6e57a319d220761a20a7f))
+
 ## [1.6.5](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.4...v1.6.5) (2026-11-09)
 
 ### 🐛 Bug Fixes
