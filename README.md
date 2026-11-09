@@ -20,7 +20,7 @@ Patches are not restricted to a specific Pepper version; they still require matc
 - **Sanitize sharing links** — Shares direct links to deals and discussions instead of tracking redirects.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.6.3](https://github.com/Karamelsabbelaar/morphe-patches/releases/tag/v1.6.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.6.4](https://github.com/Karamelsabbelaar/morphe-patches/releases/tag/v1.6.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Pepper&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
