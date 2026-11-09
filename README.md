@@ -4,7 +4,10 @@ Patches for the Dutch Pepper Android app, for use with [Morphe](https://morphe.s
 
 ## Add this source to Morphe
 
-[Add daqot-The-real-one/morphe-patches to Morphe](https://morphe.software/add-source?github=daqot-The-real-one/morphe-patches)
+[Add Karamelsabbelaar/morphe-patches to Morphe](https://morphe.software/add-source?github=Karamelsabbelaar/morphe-patches)
+
+If you already added the older daqot-The-real-one source, remove it and add this
+source instead to get the current patch bundle and Pepper compatibility metadata.
 
 This fork targets the current Pepper package ID `com.tippingcanoe.peppernl`.
 Patches are not restricted to a specific Pepper version; they still require matching fingerprints.
@@ -49,9 +52,6 @@ Patches are not restricted to a specific Pepper version; they still require matc
 - Run `./gradlew buildAndroid`.
 - The `.mpp` file is generated in `patches/build/libs/`.
 - Apply it with [Morphe-Desktop](https://github.com/MorpheApp/morphe-desktop).
-
-To publish the one-time v1.5.0 release, merge the changes to `main` and run
-**Release v1.5.0** from the GitHub Actions tab on the `main` branch.
 
 See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation) for more information.
 
