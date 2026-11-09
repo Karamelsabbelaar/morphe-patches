@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-09T18:08:22",
-  "description": "## [1.6.8](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.7...v1.6.8) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* adblocking? ([712f7b6](https://github.com/Karamelsabbelaar/morphe-patches/commit/712f7b6136f51a8f8edefe892731d3a080156c23))",
-  "download_url": "https://github.com/Karamelsabbelaar/morphe-patches/releases/download/v1.6.8/patches-1.6.8.mpp",
+  "created_at": "2026-11-09T11:48:25",
+  "description": "## [1.1.1](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.0...v1.1.1) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* build and validate patch bundle ([4497478](https://github.com/daqot-The-real-one/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))\n* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/daqot-The-real-one/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))\n* I hope everything works ([4f5a596](https://github.com/daqot-The-real-one/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))\n* include DEX in Android patch bundle ([b107f59](https://github.com/daqot-The-real-one/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))",
+  "download_url": "https://github.com/daqot-The-real-one/morphe-patches/releases/download/v1.1.1/patches-1.1.1.mpp",
   "signature_download_url": "",
-  "version": "1.6.8"
+  "version": "1.1.1"
 }

@@ -1,69 +1,12 @@
-## [1.6.8](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.7...v1.6.8) (2026-11-09)
+
+## [1.1.1](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.0...v1.1.1) (2026-11-09)
 
 ### 🐛 Bug Fixes
 
-* adblocking? ([712f7b6](https://github.com/Karamelsabbelaar/morphe-patches/commit/712f7b6136f51a8f8edefe892731d3a080156c23))
-
-## [1.6.7](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.6...v1.6.7) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* crash? ([81122e9](https://github.com/Karamelsabbelaar/morphe-patches/commit/81122e998fea13e0f06676cdcdef1170f5f6a9a9))
-
-## [1.6.6](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.5...v1.6.6) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* stupid fingerprint ([55427da](https://github.com/Karamelsabbelaar/morphe-patches/commit/55427da56f4cbe9c35f6e57a319d220761a20a7f))
-
-## [1.6.5](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.4...v1.6.5) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* refine adblocking ([aa0802a](https://github.com/Karamelsabbelaar/morphe-patches/commit/aa0802ac478abdbb85a012e28883b523a8aea460))
-
-## [1.6.4](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.3...v1.6.4) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* more ad blocking? ([f67ef33](https://github.com/Karamelsabbelaar/morphe-patches/commit/f67ef33d96c572d6cf129d9a75b4e2c4be717b38))
-
-## [1.6.3](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.2...v1.6.3) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/Karamelsabbelaar/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))
-
-## [1.6.2](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.1...v1.6.2) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* I hope everything works ([4f5a596](https://github.com/Karamelsabbelaar/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))
-
-## [1.6.1](https://github.com/Karamelsabbelaar/morphe-patches/compare/v1.6.0...v1.6.1) (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* build and validate patch bundle ([4497478](https://github.com/Karamelsabbelaar/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))
-* include DEX in Android patch bundle ([b107f59](https://github.com/Karamelsabbelaar/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))
-
-## 1.6.0 (2026-11-09)
-
-### 🔧 Improvements
-
-* Rename the patch source to daqot-The-real-one Patches.
-* Point the README to the current patch source and v1.6.0 download.
-
-## 1.5.0 (2026-11-09)
-
-### 🐛 Bug Fixes
-
-* Restore build compatibility with Morphe Patcher 2.3.0.
-* Keep Pepper targets version-independent while requiring matching fingerprints.
-
-### 🔧 Improvements
-
-* Simplify the release workflow and document local builds.
+* build and validate patch bundle ([4497478](https://github.com/daqot-The-real-one/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))
+* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/daqot-The-real-one/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))
+* I hope everything works ([4f5a596](https://github.com/daqot-The-real-one/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))
+* include DEX in Android patch bundle ([b107f59](https://github.com/daqot-The-real-one/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))
 
 ## 1.0.0 (2026-11-09)
 
